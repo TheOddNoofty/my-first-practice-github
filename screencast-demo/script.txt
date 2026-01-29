@@ -1,0 +1,12 @@
+Quick 3-minute script (short & sweet):
+
+1) Intro (10s): "Hi, I'm [Your Name]. I'll demo a short Java debugging and git workflow."
+2) Show IDE & environment (10s): "Using VS Code + Java extensions. Java version: java -version"
+3) Run program (20s): "Run Testing.java (works): java Testing"
+4) Commit initial state (10s): "git add .; git commit -m 'Initial working program'"
+5) Introduce bug (20s): "Edit Testing.java: set b=0 to create division-by-zero bug, save"
+6) Show crash (10s): "Run: java Testing -> shows exception"
+7) Git steps (30s): "git commit -am 'Introduce bug'; git checkout -b fix; fix the code or revert; commit and merge back"
+8) Wrap up (10s): "Upload video, README updated with links. Thanks!"
+
+Notes: keep each section tight; the whole video must be <= 3 minutes.
