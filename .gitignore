@@ -1,14 +1,25 @@
-# Java compiled files
+# example minimal .gitignore for Java/VSCode
+cat > .gitignore <<'EOF'
+# Java
 *.class
+*.jar
+*.war
+*.ear
+/target/
+/build/
 
-# Build folders
-bin/
-out/
-target/
-
-# VS Code settings
+# IDEs
 .vscode/
+.idea/
+*.iml
 
-# Windows junk
-Thumbs.db
+# OS
 .DS_Store
+Thumbs.db
+
+# logs and temp
+*.log
+hs_err_pid*
+
+EOF
+echo ".gitignore created."
